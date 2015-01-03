@@ -12,13 +12,15 @@
 ```Bash
 git clone https://github.com/mpereira/go-seigen.git
 cd go-seigen
-pulp build
+pulp dep install
+pulp browserify --to output/bundle.js
 ```
 
 ## Run
 
 ```Bash
-pulp run
+python -m SimpleHTTPServer 3000
+open http://localhost:3000
 ```
 
 ## License

@@ -9,5 +9,12 @@
     "node_modules",
     "bower_components",
     "output"
-  ]
+  ],
+  "dependencies": {
+    "purescript-arrays": "0.3.0",
+    "purescript-lists": "0.3.9",
+    "purescript-maybe": "0.2.1",
+    "purescript-react": "0.0.5",
+    "react": "0.12.2"
+  }
 }
