@@ -6,12 +6,14 @@
 
 - [PureScript](http://www.purescript.org/download/)
 - [pulp](https://www.npmjs.com/package/pulp)
+- [npm](http://nodejs.org/download/)
 
 ## Install
 
 ```Bash
 git clone https://github.com/mpereira/go-seigen.git
 cd go-seigen
+npm install
 pulp dep install
 pulp browserify --to output/bundle.js
 ```
